@@ -6,6 +6,8 @@ $(function(){
     var animal = $("input#fav-animal").val();
 
     var array = [color, food, animal];
-    console.log(array);
+    var arrayTwo = [];
+    arrayTwo.push(array[1], array[0], array[2]);
+    console.log(arrayTwo);
   });
 });
