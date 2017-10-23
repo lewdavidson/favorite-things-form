@@ -8,6 +8,11 @@ $(function(){
     var array = [color, food, animal];
     var arrayTwo = [];
     arrayTwo.push(array[1], array[0], array[2]);
-    console.log(arrayTwo);
+
+    $("#color-result").append(array[0]);
+    $("#food-result").append(array[1]);
+    $("#animal-result").append(array[2]);
+    $(".result").show();
+    console.log();
   });
 });
